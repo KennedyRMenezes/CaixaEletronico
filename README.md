@@ -1,4 +1,4 @@
-# Caixa Eletrônico ![image](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/google/56/bank_1f3e6.png)
+# Caixa Eletrônico ### ![image](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/google/56/bank_1f3e6.png)
 
 
 Esse pequeno projeto foi feito a partir de um exercício do curso *Bacharelado em Sistemas de Informação da Universidade de São Paulo* 
