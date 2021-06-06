@@ -1,4 +1,4 @@
-# CaixaEletronico
+# Caixa Eletrônico
 
 Esse pequeno projeto foi feito a partir de um exercício do curso *Bacharelado em Sistemas de Informação da Universidade de São Paulo* 
 
