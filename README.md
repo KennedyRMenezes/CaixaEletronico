@@ -1,11 +1,11 @@
-# Caixa Eletrônico ![image](https://user-images.githubusercontent.com/54713511/120931559-801bda80-c6c8-11eb-87b0-7c82c4048a12.png)
+# Caixa Eletrônico ![image](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/google/56/bank_1f3e6.png)
 
 
 Esse pequeno projeto foi feito a partir de um exercício do curso *Bacharelado em Sistemas de Informação da Universidade de São Paulo* 
 
 O exercício original foi proposto na *Linguagem C*
 
-## Cash Machine ![image](https://user-images.githubusercontent.com/54713511/120931563-83af6180-c6c8-11eb-84c9-b1f04ddab71f.png)
+## Cash Machine ![image](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/60/google/56/bank_1f3e6.png)
 
 
 This small project was made from a bachelor's degree exercise in *Information Systems at the University of São Paulo*
