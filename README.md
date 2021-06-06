@@ -14,6 +14,7 @@ This small project was made from a bachelor's degree exercise in *Information Sy
 
 The original exercise was proposed in the *C Language*
 
+  
 ### Features
 - [ ] Implementar Input
 - [ ] Colocar emojis de dinheiro nas notas
