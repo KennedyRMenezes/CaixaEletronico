@@ -1,28 +1,34 @@
-let myCash = prompt("Qual o valor a ser retirado?");
-document.querySelector('.valor-retirado').textContent = `R$ ${myCash},00 retirado com sucesso!`;
-let n50 = 0;
-let n20 = 0;
-let n5 = 0;
-let n1 = 0;
+const calculaCaixa = function () {
 
-function caixaEletronico () {
-    while(myCash >= 50 || myCash <= -50) {
-        myCash = myCash - 50;
+    let n50 = 0;
+    let n20 = 0;
+    let n5 = 0;
+    let n1 = 0;
+
+    let inputValue = Number(document.querySelector('.input--').value);
+    let inicalValue = inputValue;
+
+    if(inputValue < 1){
+        return document.querySelector('.aviso').textContent = `Impossível retirar um valor nulo ou negativo` ;
+    }
+
+    while(inputValue >= 50 || inputValue <= -50) {
+        inputValue = inputValue - 50;
         n50++;
     }
 
-    while (myCash >= 20) {
-        myCash = myCash - 20;
+    while (inputValue >= 20) {
+        inputValue = inputValue - 20;
         n20++;
     }
 
-    while(myCash >= 5) {
-        myCash = myCash - 5;
+    while(inputValue >= 5) {
+        inputValue = inputValue - 5;
         n5++;
     }
 
-    while(myCash >= 1) {
-        myCash = myCash - 1;
+    while(inputValue >= 1) {
+        inputValue = inputValue - 1;
         n1++;
     }
 
@@ -31,6 +37,17 @@ function caixaEletronico () {
     document.querySelector('.nota-5').textContent = `${n5} notas de R$ 5,00`;
     document.querySelector('.nota-1').textContent = `${n1} notas de R$ 1,00`;
 
-};
+    document.querySelector('.valor-retirado').textContent = `R$ ${inicalValue},00 retirad${inicalValue > 1 ? "os" : "o"} com sucesso!`;
 
-console.log(caixaEletronico());
+    document.querySelector('.input--').value = '';
+}
+
+document.querySelector('.btn').addEventListener('click', function(){
+    calculaCaixa();
+});
+
+document.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') {
+      calculaCaixa();
+    }
+});

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;900&display=swap');
+
+body {
+    background-image: linear-gradient(to right, blue, purple);
+    color: white;
+    display: flexbox;
+    justify-content: center;
+}
+
+.emoji--{
+    font-size: 4em;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.bold{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-family: 500;
+}
+
+main{
+    margin: auto;
+    margin-top: 3%;
+    width: 50%;
+}
+
+.input-- {
+    padding: 2% 16% 2% 2%;
+    border: 1px solid white;
+    outline: none;
+    appearance: none;
+    margin: 2% 0% 2% 0%;
+}
+
+.aviso{
+    font-size: 1.5em;
+    color: red;
+}
+
+.btn {
+    border: none;
+    padding: 2.2%;
+    background-color: #eee;
+    color: #222;
+    cursor: pointer;
+}
+  
+.btn:hover {
+    background-color: rgb(79, 195, 247);
+}
+
+/* Retirando setas do input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
