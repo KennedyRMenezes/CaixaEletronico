@@ -16,6 +16,6 @@ The original exercise was proposed in the *C Language*
 
   
 ### Features
-- [ ] Implementar Input
-- [ ] Colocar emojis de dinheiro nas notas
-- [ ] Estilizar página
+- [x] Implementar Input
+- [x] Colocar emojis de dinheiro nas notas
+- [x] Estilizar página
