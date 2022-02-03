@@ -19,3 +19,4 @@ The original exercise was proposed in the *C Language*
 - [x] Implementar Input
 - [x] Colocar emojis de dinheiro nas notas
 - [x] Estilizar página
+- [ ] Ajustar responsividade
